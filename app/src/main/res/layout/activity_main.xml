@@ -26,4 +26,11 @@
         android:layout_height="wrap_content"
         android:text="AI 설정" />
 
+
+    <TextView
+        android:id="@+id/tv_outPut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="출력 공간"/>
+
 </LinearLayout>
