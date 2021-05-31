@@ -38,7 +38,7 @@ public class RealmainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), com.example.smartfarm.SubActivity.class);
+                Intent intent = new Intent(getApplicationContext(), com.example.smartfarm.StateActivity.class);
                 startActivity(intent);
             }
         });
@@ -48,7 +48,7 @@ public class RealmainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent intent2 = new Intent(getApplicationContext(), com.example.smartfarm.StateActivity.class);
+                Intent intent2 = new Intent(getApplicationContext(), com.example.smartfarm.SubActivity.class);
                 startActivity(intent2);
             }
         });

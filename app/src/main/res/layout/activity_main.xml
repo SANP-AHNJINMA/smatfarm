@@ -14,14 +14,14 @@
         android:layout_marginTop="20dp">
 
         <Button
-            android:id="@+id/btn2"
+            android:id="@+id/btn1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="상태 / 제어" />
     </LinearLayout>
 
     <Button
-        android:id="@+id/btn1"
+        android:id="@+id/btn2"
         android:layout_width="105dp"
         android:layout_height="wrap_content"
         android:text="AI 설정" />
