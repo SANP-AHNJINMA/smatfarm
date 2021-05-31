@@ -7,7 +7,7 @@ import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-
+// ai 설정 페이지
 public class SubActivity extends AppCompatActivity {
 
     @Override
