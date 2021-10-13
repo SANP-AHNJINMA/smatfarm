@@ -8,6 +8,8 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.smartfarm.R;
+
 public class SubActivity extends AppCompatActivity {
 
     @Override

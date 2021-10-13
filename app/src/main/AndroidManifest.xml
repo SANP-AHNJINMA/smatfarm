@@ -13,7 +13,7 @@
         android:theme="@style/Theme.MyApplication">
         <meta-data
             android:name="com.google.android.actions"
-            android:resource="@xml/button_idle" />
+            android:resource="@xml/button_idle1" />
 
         <activity android:name=".MainActivity">
             <intent-filter>

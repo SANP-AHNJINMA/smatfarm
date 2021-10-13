@@ -10,6 +10,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.example.smartfarm.R;
+
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link LuxFragment#newInstance} factory method to

@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/main_image3"
     android:gravity="center"
+    android:background="@drawable/main_image3"
     android:orientation="vertical"
     tools:context=".StateActivity">
 
@@ -54,7 +54,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="18.3ºC"
+                        android:text="18ºC"
                         android:textAlignment="center" />
                 </LinearLayout>
 
@@ -78,7 +78,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="26.3%"
+                        android:text="26%"
                         android:textAlignment="center" />
                 </LinearLayout>
 
@@ -102,7 +102,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="30"
+                        android:text="156"
                         android:textAlignment="center" />
                 </LinearLayout>
 
@@ -141,7 +141,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="26.3"
+                            android:text="26ºC"
                             android:textAlignment="center" />
                     </LinearLayout>
 
@@ -165,7 +165,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="26.3"
+                            android:text="26%"
                             android:textAlignment="center" />
                     </LinearLayout>
 
@@ -189,13 +189,21 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="26.3"
+                            android:text="150"
                             android:textAlignment="center" />
                     </LinearLayout>
 
                 </LinearLayout>
 
             </LinearLayout>
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tab"
+                android:layout_width="match_parent"
+                android:layout_height="86dp"
+
+                app:tabIndicatorColor="@android:color/black"
+                app:tabSelectedTextColor="@color/cardview_dark_background" />
 
             <androidx.viewpager.widget.ViewPager
                 android:id="@+id/viewpager"

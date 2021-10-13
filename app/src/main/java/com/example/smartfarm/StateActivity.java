@@ -29,7 +29,7 @@ public class StateActivity extends AppCompatActivity {
 
         mViewPager = (ViewPager) findViewById(R.id.viewpager);
 
-        vpAdapter = new com.example.smartfarm.VPAdapter(
+        vpAdapter = new VPAdapter(
                 getSupportFragmentManager(), mTabLayout.getTabCount());
 
         mViewPager.setAdapter(vpAdapter);
