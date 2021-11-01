@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -6,53 +7,72 @@
     android:background="#C8F4C8"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".RealmainActivity">
+    tools:context=".LoginActivity">
 
 
-    <LinearLayout
+    <ImageView
+        android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp">
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center">
+
+
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:gravity="center">
 
             <Button
                 android:id="@+id/btn1"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_idle"
 
-                android:text="상태 / 제어" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="57dp"
-                android:orientation="horizontal"></LinearLayout>
+                android:text="텃밭 설정" />
 
             <Button
                 android:id="@+id/btn2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_idle"
-                android:text="AI 설정" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="57dp"
-                android:orientation="horizontal"></LinearLayout>
+                android:text="시스템 ON/OFF"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                app:layout_constraintEnd_toEndOf="@+id/btn1"
+                app:layout_constraintStart_toStartOf="@+id/btn1"
+                app:layout_constraintTop_toBottomOf="@+id/btn1" />
+
+
 
             <Button
                 android:id="@+id/logout_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_idle"
-                android:text="로그아웃" />
+                android:text="로그아웃"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                app:layout_constraintEnd_toEndOf="@+id/btn2"
+                app:layout_constraintStart_toStartOf="@+id/btn2"
+                app:layout_constraintTop_toBottomOf="@+id/btn2"/>
         </LinearLayout>
 
     </LinearLayout>
+
 
 </LinearLayout>
