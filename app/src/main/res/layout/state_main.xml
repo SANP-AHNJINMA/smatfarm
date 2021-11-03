@@ -54,7 +54,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="18ºC"
                         android:textAlignment="center" />
                 </LinearLayout>
 
@@ -78,7 +77,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="26%"
                         android:textAlignment="center" />
                 </LinearLayout>
 
@@ -102,7 +100,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="156"
                         android:textAlignment="center" />
                 </LinearLayout>
 
@@ -141,7 +138,6 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="26ºC"
                             android:textAlignment="center" />
                     </LinearLayout>
 
@@ -165,7 +161,6 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="26%"
                             android:textAlignment="center" />
                     </LinearLayout>
 
@@ -189,7 +184,6 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:text="150"
                             android:textAlignment="center" />
                     </LinearLayout>
 

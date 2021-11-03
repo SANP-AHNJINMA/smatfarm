@@ -31,9 +31,8 @@ import android.app.Application;
  */
 public class MoisFragment extends Fragment {
 
-    private static String IP_ADDRESS = "210.182.153.118";
     // 서버 URL 설정 ( PHP 파일 연동 )
-    final static private String URL = "http://" + IP_ADDRESS + "/moisturestat.php";
+    final static private String URL = singleton.getInstance().getURL()+ "/moisturestat.php";
     private static String TAG = "MOISTURE";
     static RequestQueue requestQueue;
 

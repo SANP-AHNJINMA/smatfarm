@@ -9,9 +9,8 @@ import java.util.Map;
 
 public class RegisterRequest extends StringRequest {
 
-    private static String IP_ADDRESS = "210.182.153.118";
     // 서버 URL 설정 ( PHP 파일 연동 )
-    final static private String URL = "http://" + IP_ADDRESS + "/Register.php";
+    final static private String URL = singleton.getInstance().getURL()+"/Register.php";
     private Map<String, String> map;
 
 

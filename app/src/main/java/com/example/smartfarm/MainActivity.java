@@ -10,7 +10,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static String IP_ADDRESS = "210.182.153.118";
 
     private Button signOutButton;
 

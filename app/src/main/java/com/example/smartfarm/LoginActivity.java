@@ -58,7 +58,6 @@ public class LoginActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(String response) {
                         try {
-                            // TODO : 인코딩 문제때문에 한글 DB인 경우 로그인 불가
                             JSONObject jsonObject = new JSONObject(response);
                             boolean success = jsonObject.getBoolean("success");
                             if (success) { // 로그인에 성공한 경우
@@ -75,7 +74,7 @@ public class LoginActivity extends AppCompatActivity {
 
                                 startActivity(intent);
                             } else { // 로그인에 실패한 경우
-                                Toast.makeText(getApplicationContext(),"로그인에 실패하였습니다.",Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getApplicationContext(),"로그인에 실패하였습니다. ID 및 password를 확인해주세요.",Toast.LENGTH_SHORT).show();
                                 return;
                             }
                         } catch (JSONException e) {
